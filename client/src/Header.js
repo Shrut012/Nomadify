@@ -45,7 +45,10 @@ const Header = () => {
 							</span>
 						</div>
 						<div className="header_nav_div">
-							<Link to="/create"> Create new post</Link>
+							<Link to="/create" className="header_nav_div_link">
+								{" "}
+								Create new post
+							</Link>
 							<a href="/#" onClick={logout}>
 								Logout
 							</a>
