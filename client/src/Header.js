@@ -58,7 +58,7 @@ const Header = () => {
 				{!username && (
 					<>
 						<div className="logout_state">
-							<Link to="/register">Register |</Link>
+							<Link to="/register">Register </Link>
 							<Link to="/login">Already Registered? Login</Link>
 						</div>
 					</>
